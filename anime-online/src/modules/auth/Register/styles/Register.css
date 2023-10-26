@@ -1,0 +1,34 @@
+.login-container {
+  height: 100vh;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+  border-bottom: 2px solid white !important;
+  text-align: start !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.anime-bg {
+  background-image: url("../../Login/img/goku.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.alert-login {
+  background-color: rgba(134, 134, 134, 0.137);
+}
+
+.alert-login-register {
+  color: rgba(181, 255, 159, 0.671) !important;
+}

@@ -1,0 +1,19 @@
+#cartas:hover {
+  transform-style: preserve-3d;
+  animation-name: rotar;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotar {
+
+  0% {
+    transform: rotateY(-55deg);
+  }
+
+  50% {
+    transform: rotateY(-180deg);
+  }
+  
+}
